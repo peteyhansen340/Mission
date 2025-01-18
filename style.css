@@ -1,0 +1,48 @@
+/* Set default font size and family */
+body {
+    font-size: 20px;
+    font-family: Times New Roman, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header h1, header h2 {
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  
+  h2 {
+    color: #006EB6;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+  }
+  
+  footer img {
+    width: 150px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
