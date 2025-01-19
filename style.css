@@ -1,48 +1,72 @@
-/* Set default font size and family */
+/* Base Styles */
 body {
-    font-size: 20px;
-    font-family: Times New Roman, serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header h1, header h2 {
-    margin: 0;
-    padding: 20px 0;
-  }
-  
-  h1 {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-  }
-  
-  
-  h2 {
-    color: #006EB6;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-  }
-  
-  main {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    line-height: 1.5;
-  }
-  
-  footer img {
-    width: 150px;
-    margin-top: 20px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul li {
-    text-align: left;
-    margin: 10px 0;
-  }
-  
+  font-size: 20px;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: white; /* Default light theme background */
+  color: black; /* Default light theme text color */
+}
+
+header h1, header h2 {
+  margin: 0;
+  padding: 20px 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #006EB6; /* Default subtitle color */
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+footer img {
+  width: 150px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  text-align: left;
+  margin: 10px 0;
+}
+
+/* Light Theme (Default) */
+body {
+  background-color: white;
+  color: black;
+}
+
+img.logo {
+  content: url('https://wdd131.netlify.app/assets/images/byui-logo_blue.webp'); /* Default blue logo */
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #333; /* Dark theme background */
+  color: white; /* Dark theme text color */
+}
+
+body.dark h2 {
+  color: #006EB6; /* Blue color for subtitle with contrast in dark mode */
+}
+
+body.dark img.logo {
+  content: url('https://wdd131.netlify.app/assets/images/byui-logo_white.png'); /* White logo for dark theme */
+}

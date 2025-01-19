@@ -4,11 +4,24 @@
   <meta charset="UTF-8">
   <meta name="description" content="Brigham Young University-Idaho mission statement.">
   <meta name="author" content="Your Name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Brigham Young University-Idaho Mission Statement</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="mission.js"></script>
 </head>
-<body>
+<body class="dark"> <!-- Add 'dark' class here for development purposes -->
+
+  <!-- Theme Selector Dropdown -->
+  <div class="theme-selector">
+    <select id="themeSelector">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+  </div>
+
+  <!-- Mission statement content -->
   <header>
+    <img id="logo" src="https://wdd131.netlify.app/assets/images/byui-logo_blue.webp" alt="Logo" class="logo">
     <h1>Brigham Young University-Idaho</h1>
     <h2>The mission of BYU-Idaho</h2>
   </header>
@@ -24,10 +37,10 @@
         <li>Delivering education that is affordable for students and the Church.</li>
       </ul>
     </section>
-
-    <footer>
-      <img src="https://wdd131.netlify.app/assets/images/byui-logo_blue.webp" alt="BYU-Idaho Logo">
-    </footer>
   </main>
+
+  <footer>
+    <!-- Optional footer content -->
+  </footer>
 </body>
 </html>
